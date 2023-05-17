@@ -1,0 +1,171 @@
+{
+    "S1": {
+        "nombre": "Supermercado Día",
+        "direccion": {
+        "calle": "Calle de los Sueños",
+        "número": "123",
+        "ciudad": "Cáceres",
+        "provincia": "Extremadura",
+        "geolocalización": "123.456789, -12.345678"
+        },
+        "productos": {
+        "manzanas": {
+        "precio": 2.99,
+        "unidad de medida": "kg",
+        "ya_comprado": true,
+        "unidades disponibles": 1000
+        },
+        "peras": {
+        "precio": 1.49,
+        "unidad de medida": "kg",
+        "ya_comprado": false,
+        "unidades disponibles": 500
+        },
+        "tomate frito": {
+        "precio": 0.99,
+        "unidad de medida": "lata",
+        "ya_comprado": true,
+        "unidades disponibles": 200
+        },
+        "lavavajillas": {
+        "precio": 3.99,
+        "unidad de medida": "unidad",
+        "ya_comprado": false,
+        "unidades disponibles": 100
+        }
+        },
+        "ofertas": {
+        "oferta1": {
+        "producto": "manzanas",
+        "precio": 1.99,
+        "precio_habitual": 2.99,
+        "vigencia": "2023-06-30"
+        },
+        "oferta2": {
+        "producto": "peras",
+        "precio": 0.99,
+        "precio_habitual": 1.49,
+        "vigencia": "2023-07-15"
+        }
+        },
+        "productos_compra_habitual_sin_oferta": [
+        "manzanas",
+        "jabón manos",
+        "detergente",
+        "sepia"
+        ]
+        },
+    "S2": {
+        "nombre": "Supermercado Estrella",
+        "direccion": {
+        "calle": "Avenida del Sol",
+        "número": "456",
+        "ciudad": "Cáceres",
+        "provincia": "Extremadura",
+        "geolocalización": "987.654321, 54.321987"
+        },
+        "productos": {
+        "leche": {
+        "precio": 1.99,
+        "unidad de medida": "litro",
+        "ya_comprado": true,
+        "unidades disponibles": 500
+        },
+        "pan": {
+        "precio": 0.99,
+        "unidad de medida": "unidad",
+        "ya_comprado": false,
+        "unidades disponibles": 1000
+        },
+        "yogur": {
+        "precio": 0.79,
+        "unidad de medida": "unidad",
+        "ya_comprado": true,
+        "unidades disponibles": 800
+        },
+        "café": {
+        "precio": 3.49,
+        "unidad de medida": "paquete",
+        "ya_comprado": false,
+        "unidades disponibles": 200
+        }
+        },
+        "ofertas": {
+        "oferta1": {
+        "producto": "leche",
+        "precio": 1.49,
+        "precio_habitual": 1.99,
+        "vigencia": "2023-07-31"
+        },
+        "oferta2": {
+        "producto": "pan",
+        "precio": 0.79,
+        "precio_habitual": 0.99,
+        "vigencia": "2023-08-15"
+        }
+        },
+        "productos_compra_habitual_sin_oferta": [
+        "yogur",
+        "café",
+        "huevos",
+        "galletas"
+        ]
+        },
+    "S3": {
+        "nombre": "Supermercado Express",
+        "direccion": {
+        "calle": "Calle de la Flores",
+        "número": "789",
+        "ciudad": "Cáceres",
+        "provincia": "Extremadura",
+        "geolocalización": "654.321987, -87.654321"
+        },
+        "productos": {
+        "pollo": {
+        "precio": 4.99,
+        "unidad de medida": "kg",
+        "ya_comprado": true,
+        "unidades disponibles": 200
+        },
+        "arroz": {
+        "precio": 1.49,
+        "unidad de medida": "paquete",
+        "ya_comprado": false,
+        "unidades disponibles": 500
+        },
+        "lechuga": {
+        "precio": 0.99,
+        "unidad de medida": "unidad",
+        "ya_comprado": true,
+        "unidades disponibles": 100
+        },
+        "pasta": {
+        "precio": 1.99,
+        "unidad de medida": "paquete",
+        "ya_comprado": false,
+        "unidades disponibles": 300
+        }
+        },
+        "ofertas": {
+        "oferta1": {
+        "producto": "pollo",
+        "precio": 3.99,
+        "precio_habitual": 4.99,
+        "vigencia": "2023-08-31"
+        },
+        "oferta2": {
+        "producto": "lechuga",
+        "precio": 0.79,
+        "precio_habitual": 0.99,
+        "vigencia": "2023-09-15"
+        }
+        },
+        "productos_compra_habitual_sin_oferta": [
+        "arroz",
+        "pasta",
+        "manzanas",
+        "refresco"
+        ]
+        }
+
+}
